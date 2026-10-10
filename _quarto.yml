@@ -6,6 +6,8 @@ website:
   favicon: images/fav.png
   navbar:
     right:
+      - text: "Home"
+        href: index.qmd
       - text: "Blog"
         href: blog.qmd
       - about.qmd
