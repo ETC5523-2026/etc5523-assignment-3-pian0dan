@@ -108,6 +108,8 @@ At the same time, the picture is not uniform, and that nuance matters for planni
 
 It is also worth being clear about what this study does *not* say. It assessed the weather conditions capable of supporting severe fires — not the causes of any individual fire. Ignition sources, vegetation and fuel loads, land management, and how exposed a community is to fire all remain within the influence of local and state decision-makers, even as the climate backdrop shifts. Weather sets the stage, but planning choices on the ground still determine a great deal of the outcome.
 
----
+::: {.callout-tip appearance="simple" icon="false"}
+## TL;DR
 
-**TLDR:** the best available attribution science [@vanoldenborgh2021] indicates that the weather conditions behind Black Summer have become meaningfully more common, and will keep becoming more common under further warming — while a genuinely uncertain, naturally variable element (drought) remains part of the picture. For planners, the practical implication is to treat past fire-season statistics as a conservative starting point rather than a reliable ceiling, while keeping fuel, land-use and exposure management as the levers most directly under local control.
+The best available attribution science [@vanoldenborgh2021] indicates that the weather conditions behind Black Summer have become meaningfully more common, and will keep becoming more common under further warming — while a genuinely uncertain, naturally variable element (drought) remains part of the picture. For planners, the practical implication is to treat past fire-season statistics as a conservative starting point rather than a reliable ceiling, while keeping fuel, land-use and exposure management as the levers most directly under local control.
+:::
