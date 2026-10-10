@@ -46,7 +46,7 @@ attribution_results <- data.frame(
 )
 
 ggplot(attribution_results, aes(x = result, y = probability)) +
-  geom_col(width = 0.58, fill = "#eaba41") +
+  geom_col(width = 0.58, fill = "#e8923f") +
   geom_hline(yintercept = 1, linetype = "dashed", linewidth = 0.5) +
   geom_text(aes(label = label), vjust = -0.5, size = 3.8, fontface = "bold") +
   annotate("text", x = 3.4, y = 1, label = "1900 baseline", hjust = 1, vjust = -0.6, size = 3) +
@@ -64,11 +64,9 @@ ggplot(attribution_results, aes(x = result, y = probability)) +
   )
 ```
 
-### Where this finding comes from
+**Not every driver moved in the same direction.** Drought is the exception. The study found **no detectable climate-change signal** in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, natural climate cycles — the Indian Ocean Dipole and the Southern Annular Mode — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell.
 
-This comes from an international climate attribution study published in the peer-reviewed journal *Natural Hazards and Earth System Sciences* [@vanoldenborgh2021]. The study combined decades of weather observations with simulations from 11 global climate models to compare the chances of Black Summer-level conditions occurring in today's climate versus the climate of 1900, before most human-caused warming had occurred. It focused on the September–February fire season in the part of southeastern Australia most affected in 2019–20. The "conservative, lower-bound" caveat on the 30% figure reflects a known limitation: the climate models used still understate the warming trend actually observed, so the true increase in fire-weather risk may be larger.
-
-**Not every driver moved in the same direction.** Drought is the exception. The study found **no detectable climate-change signal** in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, natural climate cycles — the Indian Ocean Dipole and the Southern Annular Mode — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell. @tbl-findings sets out what each of these results means in practice.
+@fig-likelihood shows how much the odds have shifted for heat and fire weather; @tbl-findings brings all three findings together and translates each into what it means for planning.
 
 ```{r}
 #| label: tbl-findings
@@ -97,6 +95,10 @@ findings <- data.frame(
 
 kable(findings, align = c("l", "l", "l"))
 ```
+
+### Where this finding comes from
+
+This comes from an international climate attribution study published in the peer-reviewed journal *Natural Hazards and Earth System Sciences* [@vanoldenborgh2021]. The study combined decades of weather observations with simulations from 11 global climate models to compare the chances of Black Summer-level conditions occurring in today's climate versus the climate of 1900, before most human-caused warming had occurred. It focused on the September–February fire season in the part of southeastern Australia most affected in 2019–20. The "conservative, lower-bound" caveat on the 30% figure reflects a known limitation: the climate models used still understate the warming trend actually observed, so the true increase in fire-weather risk may be larger.
 
 ## What this means for your planning decisions
 
