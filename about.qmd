@@ -6,8 +6,12 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
-
+      href: https://github.com/Pian0Dan
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sing-us-a-song/
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, I'm Daniel — an engagement specialist, analyst, community advocate and musician who believes that all problems are best solved together. I'm heavily involved in my local community and love learning and collaborating with others to achieve the best outcomes in any environment. Outside of work I'm passionate about music, film and interactive media.
+
+Through experience consulting with not-for-profits and working with small businesses, I've built strong technical and communication skills, making me a keen problem-solver, a supportive leader and an eager team player. I'm looking to apply my analytical skills where they count, and make a difference in social welfare, equity and inclusion.
