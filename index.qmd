@@ -1,7 +1,6 @@
 ---
-title: "Daniel Loza"
+pagetitle: "Daniel Loza"
 page-layout: full
-title-block-banner: false
 ---
 
 ::: {.hero-section}
