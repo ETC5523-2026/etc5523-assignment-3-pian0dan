@@ -4,6 +4,7 @@ author: "Daniel Loza"
 date: "2026-10-10"
 categories: [environment, policy]
 bibliography: references.bib
+css: bushfire.css
 execute:
   echo: false
   warning: false

@@ -71,6 +71,10 @@ theme_set(theme_bw(base_size = 14) +
 data <- read_excel(here("data/Naplan_Results.xlsx"), sheet = 3, col_names = TRUE)
 ```
 
+## The Dangers of Averages
+
+Every year, over a million Australian kids sit down to the same NAPLAN tests, and every year the national headlines report more or less the same story: scores are steady, nothing much has changed. But national averages have a way of flattening out the most important parts of a story. Dig into who is actually sitting behind those averages, and a very different picture emerges -- one where an entire group of students is measurably and consistently being left behind. This post works through that data step by step: starting from the national numbers everyone sees, then preliminarily examining the data to pull apart who gets tested, who doesn't, and what the gap actually looks like once you stop averaging it away.
+
 ## Where Did the Data Come From?
 
 NAPLAN tests Australian enrolled Year 3, 5, 7, and 9 students, though some are exempt (disability, recent arrival) or absent, so participation isn't 100%. Observations are aggregated statistics (mean, SD, CI, proficiency-band %) by year, domain, state, and subgroup, not individual student records. Variables cover performance, participation, and demographics. "NAPLAN Results" (sheet 3) is the key analysis sheet. Anonymisation relies on aggregation; flags suppress cells with under 30 assessed students (n.p.) or for policy reasons (s.p.) -- the latter resulted in Tasmania's omission, due to low participation.
