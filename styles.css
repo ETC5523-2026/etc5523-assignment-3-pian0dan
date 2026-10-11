@@ -111,6 +111,53 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+/* Contact page intro */
+.contact-intro {
+  max-width: 600px;
+  margin: 2rem auto 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Contact page info cards */
+.contact-info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 900px;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.contact-card i {
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.contact-card strong {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.contact-card a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* Contact section */
 .contact-section {
   text-align: center;
