@@ -246,6 +246,33 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+/* Resume skills, shown as pill badges to mirror the source site's skill tags */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+}
+
+/* Pandoc wraps the pill spans in a <p>; let that paragraph pass its
+   children through to the flex container above instead of being a child itself */
+.skills-list p {
+  display: contents;
+}
+
+.skill-pill {
+  display: inline-block;
+  flex: 1 1 160px;
+  text-align: center;
+  background-color: var(--accent-tint);
+  color: var(--accent-dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+}
+
 /* Resume timeline entries: date column beside title + description,
    mirroring the source site's timeline layout */
 .timeline-item {

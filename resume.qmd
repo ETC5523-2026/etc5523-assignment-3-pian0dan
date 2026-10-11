@@ -144,7 +144,9 @@ Developed performance, communication, teamwork skills, and confidence by perform
 
 ## Skills
 
-Thoroughness &nbsp;·&nbsp; Communication &nbsp;·&nbsp; Research Skills &nbsp;·&nbsp; Self-Motivation &nbsp;·&nbsp; Teamwork &nbsp;·&nbsp; Technical Aptitude &nbsp;·&nbsp; Resilience &nbsp;·&nbsp; Creative Thinking
+::: {.skills-list}
+[Thoroughness]{.skill-pill} [Communication]{.skill-pill} [Research Skills]{.skill-pill} [Self-Motivation]{.skill-pill} [Teamwork]{.skill-pill} [Technical Aptitude]{.skill-pill} [Resilience]{.skill-pill} [Creative Thinking]{.skill-pill}
+:::
 
 ## Volunteering
 
