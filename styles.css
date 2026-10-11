@@ -273,6 +273,12 @@ a:hover {
   border-radius: 999px;
 }
 
+/* Zig-zag colour variation between pills */
+.skill-pill-dark {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
 /* Resume timeline entries: date column beside title + description,
    mirroring the source site's timeline layout */
 .timeline-item {
