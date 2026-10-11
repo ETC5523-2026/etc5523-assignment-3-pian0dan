@@ -211,6 +211,17 @@ a {
   color: var(--accent);
 }
 
+/* Inline links inside headings (e.g. homepage "Contact me") need their own
+   affordance since headings are already accent-colored */
+.contact-link {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-dark);
+}
+
+.contact-link:hover {
+  color: var(--accent-dark) !important;
+}
+
 a:hover {
   color: var(--accent-dark);
 }
