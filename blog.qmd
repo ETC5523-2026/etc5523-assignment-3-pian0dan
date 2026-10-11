@@ -1,6 +1,7 @@
 ---
 title: "My Data Stories"
 listing:
+  id: blog-listing
   contents: posts
   sort: "date desc"
   type: default
@@ -10,3 +11,10 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+:::{#blog-listing}
+:::
+
+::: {.contact-section}
+[Give me something to write about!](contact.qmd){.btn-cta-outline}
+:::
