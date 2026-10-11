@@ -703,7 +703,3 @@ Wickham H, Bryan J (2026). _readxl: Read Excel Files_. R package version 1.5.0. 
 Wickham H (2016). _ggplot2: Elegant Graphics for Data Analysis_. Springer-Verlag New York. [https://ggplot2.tidyverse.org](https://ggplot2.tidyverse.org).
 
 Müller K (2025). _here: A Simpler Way to Find Your Files_. R package version 1.0.2. [doi:10.32614/CRAN.package.here](https://doi.org/10.32614/CRAN.package.here).
-
-### AI Use
-
-Posit Assistant was used to assist in writing code to produce the graphs. Throughout this process, there was iterative prompting and refinement to ensure graphs and plots showed the desired information, and that this information was actually interesting and interpretable.

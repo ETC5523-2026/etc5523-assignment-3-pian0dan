@@ -1,6 +1,0 @@
----
-title: "Publishings"
-title-block-banner: true
----
-
-I am currently polishing my thesis on sortition frameworks. Check back for this later!
