@@ -27,8 +27,3 @@ I'm always happy to chat about data, community projects, or new opportunities â€
 :::
 
 :::
-
-::: {.contact-section}
-[Github](https://github.com/Pian0Dan){.btn-cta-outline}
-[LinkedIn](https://www.linkedin.com/in/sing-us-a-song/){.btn-cta-outline}
-:::
