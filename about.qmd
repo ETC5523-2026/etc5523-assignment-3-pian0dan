@@ -5,9 +5,6 @@ title-block-banner: true
 image: images/profile.jpeg
 about:
   template: jolla
-  links:
-    - text: Learn more
-      href: contact.qmd
 ---
 
 ```{=html}
@@ -100,4 +97,8 @@ Clear, confident communication with clients and executives alike.
 Driven to lead teams toward shared goals.
 :::
 
+:::
+
+::: {.about-cta}
+[Learn more](contact.qmd){.btn-cta-outline}
 :::
