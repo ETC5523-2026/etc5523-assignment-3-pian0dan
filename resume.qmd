@@ -73,6 +73,8 @@ I privately teach and tutor students to play piano, using a hybrid of Suzuki and
 
 ## Education
 
+::: {.aligned-timeline}
+
 ::: {.timeline-item}
 ::: {.timeline-date}
 Expected Finish 2026
@@ -146,6 +148,8 @@ Developed performance, communication, teamwork skills, and confidence by perform
 :::
 :::
 
+:::
+
 ## Skills
 
 ::: {.skills-list}
@@ -181,6 +185,8 @@ Actively participated in a deliberative panel, discussing local issues for posit
 :::
 
 ## Licences & Certifications
+
+::: {.aligned-timeline}
 
 ::: {.timeline-item}
 ::: {.timeline-date}
@@ -240,6 +246,8 @@ Issued Nov 2022
 ::: {.timeline-content}
 #### Learners Licence at VicRoads
 :::
+:::
+
 :::
 
 ::: {.contact-section}
