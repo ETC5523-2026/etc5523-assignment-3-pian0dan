@@ -682,6 +682,12 @@ ggplot(band_data_remote, aes(x = indigeneity, y = pct, fill = band)) +
 
 The performance band's name is fitting: these kids need additional support. We cannot keep ignoring this disparity. ***We cannot continue to leave our Indigenous youth behind.***
 
+::: {.callout-tip appearance="simple" icon="false"}
+## TL;DR
+
+Nationally, NAPLAN scores look fairly consistent across domains and states -- until the Northern Territory and Indigenous students are considered on their own. NT trails every other state by a wide margin, driven largely by its Very remote Indigenous population, who also have the lowest participation rates in the country. Disaggregating by Indigeneity shows the national average has been masking this gap all along: Indigenous students are several times more likely to fall into "Needs additional support" performance bands when compared to their non-Indigenous counterparts, and are almost entirely absent from "Exceeding," with the disparity most severe in remote areas. Growth between Year 3 and Year 5 doesn't close this gap either. The data points to one conclusion: Indigenous students, especially in remote communities, are being systemically left behind by the current system. More investigation and focus is needed to address this systemic issue and ensure equitable access and outcomes for all students.
+:::
+
 ## Resources
 
 The materials used for this report are:
