@@ -300,6 +300,12 @@ a:hover {
   padding-top: 0.2rem;
 }
 
+/* Experience and Volunteering use a shared fixed date-column width so
+   every title in those sections starts at the same horizontal position */
+.aligned-timeline .timeline-date {
+  flex: 0 0 180px;
+}
+
 .timeline-content {
   flex: 1 1 320px;
   min-width: 0;

@@ -7,6 +7,8 @@ title-block-banner: true
 
 ## Experience
 
+::: {.aligned-timeline}
+
 ::: {.timeline-item}
 ::: {.timeline-date}
 Jul 2026 - Present
@@ -65,6 +67,8 @@ Aug 2019 - Present
 
 I privately teach and tutor students to play piano, using a hybrid of Suzuki and AMEB methods—building self-confidence and musical literacy.
 :::
+:::
+
 :::
 
 ## Education
@@ -150,6 +154,8 @@ Developed performance, communication, teamwork skills, and confidence by perform
 
 ## Volunteering
 
+::: {.aligned-timeline}
+
 ::: {.timeline-item}
 ::: {.timeline-date}
 Nov 2023 - Present
@@ -170,6 +176,8 @@ Apr 2023 - Oct 2024
 
 Actively participated in a deliberative panel, discussing local issues for positive community outcomes. Delivered on 5 key metrics to advise incumbent council on future planning.
 :::
+:::
+
 :::
 
 ## Licences & Certifications
