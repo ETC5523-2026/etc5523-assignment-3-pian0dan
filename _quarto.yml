@@ -11,7 +11,7 @@ website:
       - text: "Blog"
         href: blog.qmd
       - text: "Publishings"
-        href: publishings.qmd
+        href: publications.qmd
       - text: "Resume"
         href: resume.qmd
       - text: "About"

@@ -2,7 +2,7 @@
 title: "Bushfire Weather Is Changing: What Local Planners Need to Know"
 author: "Daniel Loza"
 date: "2026-10-10"
-categories: [bushfire, climate policy]
+categories: [environment, policy]
 bibliography: references.bib
 execute:
   echo: false
