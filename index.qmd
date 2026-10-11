@@ -29,7 +29,4 @@ A look at what the best available climate-attribution science says about Black S
 
 ::: {.contact-section}
 ## [Contact me](contact.qmd){.contact-link} to find out more!
-
-[Github](https://github.com/Pian0Dan){.btn-cta-outline}
-[LinkedIn](https://www.linkedin.com/in/sing-us-a-song/){.btn-cta-outline}
 :::

@@ -1,15 +1,13 @@
 ---
+title: "About Daniel"
 pagetitle: "About"
+title-block-banner: true
 image: images/profile.jpeg
 about:
   template: jolla
   links:
-    - icon: github
-      text: Github
-      href: https://github.com/Pian0Dan
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/sing-us-a-song/
+    - text: Learn more
+      href: contact.qmd
 ---
 
 ```{=html}

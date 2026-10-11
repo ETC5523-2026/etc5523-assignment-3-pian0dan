@@ -9,6 +9,14 @@
   --text: #212121;
 }
 
+/* Quarto forces the content container to be at least viewport-height,
+   which creates a large gap above the footer on short pages. Letting
+   it size to its own content doesn't affect pages already taller than
+   the viewport. */
+.quarto-container {
+  min-height: auto !important;
+}
+
 body {
   background-color: #ffffff;
   color: var(--text);
@@ -246,9 +254,14 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* "That's me!" callout pointing at the About-page photo */
+/* "That's me!" callout pointing at the About-page photo.
+   Bootstrap's default about-jolla rule sets margin-top: 10%, which
+   was meant to add breathing room on a page with no title banner;
+   now that this page has a real title-block-banner, that doubles up
+   into an oversized gap, so override it down. */
 .quarto-about-jolla {
   position: relative;
+  margin-top: 1.5rem !important;
 }
 
 .photo-callout {
@@ -400,6 +413,45 @@ a:hover {
 .timeline-content p:last-child,
 .timeline-content ul:last-child {
   margin-bottom: 0;
+}
+
+/* Site-wide footer links, styled to match .btn-cta-outline */
+.nav-footer-center .footer-items .nav-link {
+  display: inline-block;
+  border: 2px solid var(--accent);
+  color: var(--accent) !important;
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0.3rem;
+}
+
+.nav-footer-center .footer-items .nav-link:hover {
+  background-color: var(--accent);
+  color: #ffffff !important;
+}
+
+.nav-footer-center .footer-items .nav-link i {
+  margin-right: 0.4rem;
+  font-family: "bootstrap-icons" !important;
+}
+
+/* Something in the footer-item rendering path resets the icon font's
+   ::before content; force the specific glyphs back in explicitly */
+.nav-footer-center .footer-items .nav-link i.bi-github::before {
+  content: "\f3ed" !important;
+  font-family: "bootstrap-icons" !important;
+}
+
+.nav-footer-center .footer-items .nav-link i.bi-linkedin::before {
+  content: "\f472" !important;
+  font-family: "bootstrap-icons" !important;
+}
+
+.nav-footer-center .footer-items .nav-link i.bi-briefcase-fill::before {
+  content: "\f1cb" !important;
+  font-family: "bootstrap-icons" !important;
 }
 
 /* Listing page post cards */

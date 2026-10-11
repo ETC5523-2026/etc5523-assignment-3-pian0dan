@@ -251,8 +251,6 @@ Issued Nov 2022
 :::
 
 ::: {.contact-section}
-[Download Full Resume](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing){.btn-cta-outline}
+[Download Resume](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing){.btn-cta-outline}
 [Get in Touch](contact.qmd){.btn-cta-outline}
-[SEEK](https://www.seek.com.au/profile/daniel-loza-S3Vzyw8Gfr){.btn-cta-outline}
-[LinkedIn](https://www.linkedin.com/in/sing-us-a-song){.btn-cta-outline}
 :::
