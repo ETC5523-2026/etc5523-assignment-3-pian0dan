@@ -246,6 +246,85 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+/* "That's me!" callout pointing at the About-page photo */
+.quarto-about-jolla {
+  position: relative;
+}
+
+.photo-callout {
+  position: absolute;
+  top: -25px;
+  left: calc(50% + 130px);
+  width: 300px;
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.photo-callout-text {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+  background-color: #ffffff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transform: rotate(10deg);
+  white-space: nowrap;
+}
+
+.photo-callout-arrow {
+  display: block;
+  margin: -2px auto 0;
+}
+
+@media (max-width: 650px) {
+  .photo-callout {
+    display: none;
+  }
+}
+
+/* Give About-page sections clear visual separation */
+.quarto-about-jolla h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.quarto-about-jolla h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+/* About-page skills summary grid, mirroring the source site's skills section */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.skill-card {
+  flex: 1 1 220px;
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.skill-icon {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
 /* Resume skills, shown as pill badges to mirror the source site's skill tags */
 .skills-list {
   display: flex;
@@ -298,6 +377,14 @@ a:hover {
   font-size: 0.9rem;
   color: var(--accent);
   padding-top: 0.2rem;
+}
+
+/* Experience, Education and Volunteering use a shared fixed date-column
+   width so every title in those sections starts at the same horizontal
+   position; longer dates (e.g. Education) are allowed to wrap to fit */
+.aligned-timeline .timeline-date {
+  flex: 0 0 180px;
+  white-space: normal;
 }
 
 .timeline-content {
