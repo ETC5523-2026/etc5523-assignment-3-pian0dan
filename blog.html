@@ -76,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-blog-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-blog-listing'] = new List('listing-blog-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -162,7 +162,7 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publishings.html"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publishings</span></a>
   </li>  
   <li class="nav-item">
@@ -211,7 +211,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVzaGZpcmU=">bushfire <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHBvbGljeQ==">climate policy <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZW52aXJvbm1lbnQ=">environment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXF1aXR5">equity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9saWN5">policy <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -219,13 +219,9 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div id="listing-blog-listing" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="YnVzaGZpcmUlMkNjbGltYXRlJTIwcG9saWN5" data-listing-date-sort="1791550800000" data-listing-file-modified-sort="1791722387864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1088">
+<div class="quarto-post image-right" data-index="0" data-categories="ZW52aXJvbm1lbnQlMkNwb2xpY3k=" data-listing-date-sort="1791550800000" data-listing-file-modified-sort="1791732889762" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1088">
 <div class="thumbnail"><a href="./posts/bushfire-weather-risk/index.html" class="no-external">
 
 <p class="card-img-top"><img loading='lazy' src="posts/bushfire-weather-risk/index_files/figure-html/fig-likelihood-1.png"  class="thumbnail-image card-img"/></p>
@@ -235,11 +231,14 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./posts/bushfire-weather-risk/index.html" class="no-external">Bushfire Weather Is Changing: What Local Planners Need to Know</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/bushfire-weather-risk/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('YnVzaGZpcmU='); return false;">bushfire</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZW52aXJvbm1lbnQ='); return false;">environment</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y2xpbWF0ZSUyMHBvbGljeQ=='); return false;">climate policy</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cG9saWN5'); return false;">policy</div>
 
 </div>
 <div class="delink listing-description"><a href="./posts/bushfire-weather-risk/index.html" class="no-external">
@@ -257,9 +256,52 @@ Daniel Loza
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="1" data-categories="ZWR1Y2F0aW9uJTJDZXF1aXR5" data-listing-date-sort="1787493600000" data-listing-file-modified-sort="1791733249299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="29" data-listing-word-count-sort="5713">
+<div class="thumbnail"><a href="./posts/naplan-indigenous-equity/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/naplan-indigenous-equity/index_files/figure-html/fig-national-domain-summary-1.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/naplan-indigenous-equity/index.html" class="no-external">Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/naplan-indigenous-equity/index.html" class="no-external">Who are we leaving behind?</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXF1aXR5'); return false;">equity</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/naplan-indigenous-equity/index.html" class="no-external">
+Every year, over a million Australian kids sit down to the same NAPLAN tests, and every year the national headlines report more or less the same story: scores are steady…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/naplan-indigenous-equity/index.html" class="no-external">
+<div class="listing-date">
+Aug 24, 2026
+</div>
+<div class="listing-author">
+Daniel Loza
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+<div class="contact-section">
+<p><a href="./contact.html" class="btn-cta-outline">Give me something to write about!</a></p>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
