@@ -3,7 +3,7 @@ title: "Resume"
 title-block-banner: true
 ---
 
-Here's a snapshot of my professional journey. You can also [download my full resume as a PDF](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing).
+[Here's a snapshot of my professional journey. You can also [download my full resume as a PDF](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing).]{.resume-lede}
 
 ## Experience
 

@@ -237,6 +237,14 @@ a:hover {
   color: #ffffff !important;
 }
 
+/* Resume intro line, sized to match the larger lede text on the source site */
+.resume-lede {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
 /* Resume timeline entries: date column beside title + description,
    mirroring the source site's timeline layout */
 .timeline-item {
@@ -248,7 +256,9 @@ a:hover {
 }
 
 .timeline-date {
-  flex: 0 0 160px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  min-width: 140px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
