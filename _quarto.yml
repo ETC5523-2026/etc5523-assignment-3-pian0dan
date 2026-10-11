@@ -10,6 +10,10 @@ website:
         href: index.qmd
       - text: "Blog"
         href: blog.qmd
+      - text: "Publishings"
+        href: publishings.qmd
+      - text: "Resume"
+        href: resume.qmd
       - about.qmd
       - contact.qmd
       - icon: github

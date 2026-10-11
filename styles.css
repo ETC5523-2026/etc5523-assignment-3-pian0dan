@@ -237,6 +237,40 @@ a:hover {
   color: #ffffff !important;
 }
 
+/* Resume timeline entries: date column beside title + description,
+   mirroring the source site's timeline layout */
+.timeline-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.timeline-date {
+  flex: 0 0 160px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--accent);
+  padding-top: 0.2rem;
+}
+
+.timeline-content {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.timeline-content p:last-child,
+.timeline-content ul:last-child {
+  margin-bottom: 0;
+}
+
 /* Listing page post cards */
 .quarto-grid-item {
   background-color: #ffffff;

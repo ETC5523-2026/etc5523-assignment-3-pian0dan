@@ -1,0 +1,240 @@
+---
+title: "Resume"
+title-block-banner: true
+---
+
+Here's a snapshot of my professional journey. You can also [download my full resume as a PDF](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing).
+
+## Experience
+
+::: {.timeline-item}
+::: {.timeline-date}
+Jul 2026 - Present
+:::
+::: {.timeline-content}
+#### Assistant Tutor at Monash University
+
+I aid in content delivery and personalised learning support for Business and Economic Statistics at Monash University.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Nov 2025 - May 2026
+:::
+::: {.timeline-content}
+#### Participant Recruitment Coordinator at MosaicLab Co
+
+I planned, designed and managed recruitment processes for community engagement and deliberative panel facilitation.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Jul 2025 - Oct 2025
+:::
+::: {.timeline-content}
+#### Consulting Project at Governance Institute of Australia
+
+I engaged in contract work involving:
+
+- Liaising with the executives at GIA
+- Collecting, inspecting and analysing membership metrics
+- Identifying key trends across financial and membership data
+- Working in a team to build strategies to enhance member acquisition, retention, experience and engagement
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Feb 2022 - Present
+:::
+::: {.timeline-content}
+#### Customer Service Representative at PoolShower.com.au
+
+I liaise with customers to ensure they get the service they need, and their questions answered. I also support the order placing process and provide after-sale service as needed. Additionally, I have created promotional videos, campaigns and advertising material, including copywriting. I have also engaged in logistics work, communicating with couriers and handling order dispatch.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Aug 2019 - Present
+:::
+::: {.timeline-content}
+#### Piano Teacher at DanThePianoMan Music School
+
+I privately teach and tutor students to play piano, using a hybrid of Suzuki and AMEB methods—building self-confidence and musical literacy.
+:::
+:::
+
+## Education
+
+::: {.timeline-item}
+::: {.timeline-date}
+Expected Finish 2026
+:::
+::: {.timeline-content}
+#### Bachelor of Commerce (Honours) at Monash University
+
+- Specialising in Business Analytics
+- High Distinction Average
+- EBS Honours Memorial Scholarship
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Finished 2025
+:::
+::: {.timeline-content}
+#### Bachelor of Business at Monash University
+
+- Double-majoring in Economics and Business Strategy, and Analytics and Business Statistics
+- Dean's Award (Top 2%) - HD Average
+- Top Results:
+  - 95 - Digital Marketing (Unit Prize) 🏆
+  - 93 - Microeconomics
+  - 92 - Economics of International Trade
+  - 92 - Marketing Theory and Practice
+  - 92 - Foundations of Finance
+  - 91 - The Wealth and Poverty of Nations
+  - 90 - Managerial Economics
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Finished 2022 (practical), 2023 (theoretical)
+:::
+::: {.timeline-content}
+#### AMusA (Classical Piano) at AMEB
+
+- Pass on first attempt
+- Grade 5 Music Theory (Honours)
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Finished 2022
+:::
+::: {.timeline-content}
+#### VCE Baccalaureate at Mordialloc College
+
+- Middle School Vice Captain, then College Captain
+- Active member of Student Voice Committee, Student Representative Council, Student Council, and School Council
+- Alto Saxophone for school Concert and Stage Bands
+- Member of Respect Group, focused on inclusion
+- Editor of student magazine "Student Snapshot"
+- Select Entry Accelerated Learning (SEAL) Student
+- Subject study awards for top performance each year
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Finished 2021
+:::
+::: {.timeline-content}
+#### Certificate III in Music Industry (Performance) at COSAMP
+
+Developed performance, communication, teamwork skills, and confidence by performing to audiences in a music ensemble.
+:::
+:::
+
+## Skills
+
+Thoroughness &nbsp;·&nbsp; Communication &nbsp;·&nbsp; Research Skills &nbsp;·&nbsp; Self-Motivation &nbsp;·&nbsp; Teamwork &nbsp;·&nbsp; Technical Aptitude &nbsp;·&nbsp; Resilience &nbsp;·&nbsp; Creative Thinking
+
+## Volunteering
+
+::: {.timeline-item}
+::: {.timeline-date}
+Nov 2023 - Present
+:::
+::: {.timeline-content}
+#### Youth Voice Working Group Member at Kingston Youth Services
+
+Engaging with other young people in collaboration with city council to ensure active youth representation in my community.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Apr 2023 - Oct 2024
+:::
+::: {.timeline-content}
+#### Community Representative at Kingston City Council
+
+Actively participated in a deliberative panel, discussing local issues for positive community outcomes. Delivered on 5 key metrics to advise incumbent council on future planning.
+:::
+:::
+
+## Licences & Certifications
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Sep 2025
+:::
+::: {.timeline-content}
+#### [Applying Python for Data Analysis](https://drive.google.com/file/d/1t5h2nbIlWanoZl8SZmtvVYI_4f0ZDzBa/view?usp=sharing) at Coursera
+
+Developed data cleaning, analysis and visualisation skills with Pandas in Python.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Sep 2025
+:::
+::: {.timeline-content}
+#### [Data Visualisation using dplyr and ggplot2 in R](https://drive.google.com/file/d/1--u-EJ3H1JrNpeRzooot72F84QIB25Fl/view?usp=sharing) at Coursera
+
+Refined data manipulation, analysis and visualisation skills with dplyr and ggplot2 packages in R.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Sep 2025
+:::
+::: {.timeline-content}
+#### [How to Set Up a Facebook Ads Campaign](https://drive.google.com/file/d/17PLRm-lRfB06IFhqkAZwM3RoWatlUTVp/view?usp=sharing) at Coursera
+
+Learned industry standard processes for efficiently and effectively setting up campaigns with Facebook ads and tracking their efficacy across key metrics.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Nov 2023
+:::
+::: {.timeline-content}
+#### VIC Volunteer WWC Check at VIC Government
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Dec 2024
+:::
+::: {.timeline-content}
+#### VIC Employee WWC Check at VIC Government
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+Issued Nov 2022
+:::
+::: {.timeline-content}
+#### Learners Licence at VicRoads
+:::
+:::
+
+::: {.contact-section}
+[Download Full Resume](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing){.btn-cta-outline}
+[Get in Touch](contact.qmd){.btn-cta-outline}
+[SEEK](https://www.seek.com.au/profile/daniel-loza-S3Vzyw8Gfr){.btn-cta-outline}
+[LinkedIn](https://www.linkedin.com/in/sing-us-a-song){.btn-cta-outline}
+:::
