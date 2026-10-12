@@ -299,6 +299,28 @@ a:hover {
   }
 }
 
+/* On portrait phones there's room to keep the callout, just shrunk and
+   pulled in from the wide desktop offset so it doesn't overflow the
+   viewport. Scaling the whole block (text + arrow) as one unit, rather
+   than resizing the text and SVG separately, keeps the arrow lined up
+   with the bubble above it at any size. transform-origin is pinned to
+   the corner nearest the arrowhead (not the box's default top-left) so
+   shrinking the box moves the tip itself only slightly, keeping it
+   just outside the circular photo (240px/15em diameter, centered in
+   the page) instead of drifting into it.
+   Note: tuned against the photo's fixed 15em size, but worth a visual
+   check in a real portrait viewport and a small nudge if needed. */
+@media (max-width: 500px) and (orientation: portrait) {
+  .photo-callout {
+    display: block;
+    top: -48px;
+    left: calc(50% + 70px);
+    width: 300px;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+}
+
 /* About-page "Learn more" CTA, placed at the end of the page content */
 .about-cta {
   text-align: center;
