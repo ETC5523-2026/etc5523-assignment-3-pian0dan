@@ -153,7 +153,7 @@ Developed performance, communication, teamwork skills, and confidence by perform
 ## Skills
 
 ::: {.skills-list}
-[Thoroughness]{.skill-pill .skill-pill-dark} [Communication]{.skill-pill} [Research Skills]{.skill-pill .skill-pill-dark} [Self-Motivation]{.skill-pill} [Teamwork]{.skill-pill} [Technical Aptitude]{.skill-pill .skill-pill-dark} [Resilience]{.skill-pill} [Creative Thinking]{.skill-pill .skill-pill-dark}
+[Thoroughness]{.skill-pill .skill-pill-dark} [Communication]{.skill-pill} [Research Skills]{.skill-pill .skill-pill-dark} [Self-Motivation]{.skill-pill} [Teamwork]{.skill-pill} [Technical Aptitude]{.skill-pill .skill-pill-dark .skill-pill-long} [Resilience]{.skill-pill} [Creative Thinking]{.skill-pill .skill-pill-dark}
 :::
 
 ## Volunteering
