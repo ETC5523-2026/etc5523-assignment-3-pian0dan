@@ -321,12 +321,6 @@ a:hover {
   }
 }
 
-/* About-page "Learn more" CTA, placed at the end of the page content */
-.about-cta {
-  text-align: center;
-  margin-top: 2.5rem;
-}
-
 /* Give About-page sections clear visual separation */
 .quarto-about-jolla h2 {
   margin-top: 2.5rem;
