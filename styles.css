@@ -166,12 +166,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-/* Contact section */
+/* Contact section. Paired with Quarto's own .column-screen class in the
+   markup (rather than a manual vw/negative-margin hack), since that's what
+   actually switches the page into Quarto's full-bleed grid layout, letting
+   this section reach the true screen edge even on pages with a margin
+   sidebar (e.g. the blog listing's category sidebar). With the section now
+   genuinely spanning the full viewport width, text-align: center below
+   centers the button on the page rather than just within a narrower,
+   off-center content column. */
 .contact-section {
   text-align: center;
   padding: 3rem 2rem;
   background-color: #f7f7f5;
-  margin: 0 -0.75rem;
 }
 
 .btn-cta-outline {
