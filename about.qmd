@@ -99,6 +99,6 @@ Driven to lead teams toward shared goals.
 
 :::
 
-::: {.contact-section .column-screen}
+::: {.contact-section}
 [Learn more](contact.qmd){.btn-cta-outline}
 :::

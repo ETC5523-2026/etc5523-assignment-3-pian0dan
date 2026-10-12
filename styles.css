@@ -60,8 +60,17 @@ h1, h2, h3, h4, h5, h6 {
      underneath it so it reaches the very top of the page. */
   margin-top: -64px;
   padding-top: calc(7rem + 64px);
-  /* Full-bleed is handled by the .column-screen class in the markup
-     (Quarto's own grid-breakout mechanism), not manual width/position here */
+  /* Full-bleed: break out of the content column regardless of its width.
+     (box-shadow bleed, used for .contact-section below, only works for flat
+     colors — this section needs the actual box to be full width since it
+     carries a background image.) */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  z-index: 0;
 }
 
 .hero-section h1 {
@@ -160,18 +169,23 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-/* Contact section. Paired with Quarto's own .column-screen class in the
-   markup (rather than a manual vw/negative-margin hack), since that's what
-   actually switches the page into Quarto's full-bleed grid layout, letting
-   this section reach the true screen edge even on pages with a margin
-   sidebar (e.g. the blog listing's category sidebar). With the section now
-   genuinely spanning the full viewport width, text-align: center below
-   centers the button on the page rather than just within a narrower,
-   off-center content column. */
+/* Contact section. Full-bleed background via a huge box-shadow rather than
+   Quarto's grid column classes (e.g. .column-screen): those depend on
+   exactly how Quarto nests this element's ancestors in its grid, which
+   varies by page template (plain pages, listing pages with a margin
+   sidebar, and the About page's "jolla" about-template wrapper all differ),
+   so the same class doesn't reliably reach the true screen edge everywhere.
+   box-shadow instead paints past this element's own box regardless of that
+   nesting; clip-path trims the shadow back so it doesn't force a horizontal
+   scrollbar. Because this element's actual box stays put (centered, at
+   normal content width), text-align: center below centers the button in
+   that symmetric box, which reads as centered on the page. */
 .contact-section {
   text-align: center;
   padding: 3rem 2rem;
   background-color: #f7f7f5;
+  box-shadow: 0 0 0 100vmax #f7f7f5;
+  clip-path: inset(0 -100vmax);
 }
 
 .btn-cta-outline {

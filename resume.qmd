@@ -250,7 +250,7 @@ Issued Nov 2022
 
 :::
 
-::: {.contact-section .column-screen}
+::: {.contact-section}
 [Download Resume](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing){.btn-cta-outline}
 [Get in touch](contact.qmd){.btn-cta-outline}
 :::
