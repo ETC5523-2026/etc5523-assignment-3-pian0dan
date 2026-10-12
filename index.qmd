@@ -3,7 +3,7 @@ pagetitle: "Daniel Loza"
 page-layout: full
 ---
 
-::: {.hero-section}
+::: {.hero-section .column-screen}
 # Hi, I'm Daniel!
 
 ::: {.tagline}
