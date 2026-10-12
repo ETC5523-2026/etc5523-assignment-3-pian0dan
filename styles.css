@@ -60,14 +60,8 @@ h1, h2, h3, h4, h5, h6 {
      underneath it so it reaches the very top of the page. */
   margin-top: -64px;
   padding-top: calc(7rem + 64px);
-  /* Full-bleed: break out of the content column regardless of its width */
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  z-index: 0;
+  /* Full-bleed is handled by the .column-screen class in the markup
+     (Quarto's own grid-breakout mechanism), not manual width/position here */
 }
 
 .hero-section h1 {
