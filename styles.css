@@ -399,6 +399,37 @@ a:hover {
   color: #ffffff;
 }
 
+/* On mobile portrait, the 160px flex-basis only fits 2 pills per row,
+   turning the 2x4 zig-zag into a 4x2 grid where dark/light pills stack
+   in the same column instead of alternating. Force a single column so
+   the zig-zag runs vertically instead. */
+@media (max-width: 500px) and (orientation: portrait) {
+  /* At this width the pills naturally wrap 2-per-row (4 rows x 2
+     columns) instead of the desktop 2 rows x 4 columns. The dark/light
+     classes in the markup are ordered for that wider grid, so on a
+     2-column grid they land as two solid-colour rows followed by two
+     rows of the opposite colour, rather than a checkerboard. Recolour
+     by grid position instead: for 2 columns, a checkerboard repeats
+     every 4 items as light, dark, dark, light. */
+  .skills-list p .skill-pill:nth-child(4n+1),
+  .skills-list p .skill-pill:nth-child(4n) {
+    background-color: var(--accent-tint);
+    color: var(--accent-dark);
+  }
+
+  .skills-list p .skill-pill:nth-child(4n+2),
+  .skills-list p .skill-pill:nth-child(4n+3) {
+    background-color: var(--accent);
+    color: #ffffff;
+  }
+
+  /* "Technical Aptitude" is the longest label; at this width it wraps
+     onto two lines unless shrunk slightly. */
+  .skill-pill-long {
+    font-size: 0.8rem;
+  }
+}
+
 /* Resume timeline entries: date column beside title + description,
    mirroring the source site's timeline layout */
 .timeline-item {
