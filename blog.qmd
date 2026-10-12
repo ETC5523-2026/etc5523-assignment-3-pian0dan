@@ -15,6 +15,6 @@ title-block-banner: true
 :::{#blog-listing}
 :::
 
-::: {.contact-section}
+::: {.contact-section .column-screen}
 [Give me something to write about!](contact.qmd){.btn-cta-outline}
 :::

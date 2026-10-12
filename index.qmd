@@ -27,6 +27,6 @@ A look at what the best available climate-attribution science says about Black S
 
 :::
 
-::: {.contact-section}
+::: {.contact-section .column-screen}
 ## [Contact me](contact.qmd){.contact-link} to find out more!
 :::
