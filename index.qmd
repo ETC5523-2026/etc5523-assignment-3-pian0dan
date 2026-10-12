@@ -13,7 +13,7 @@ I create connections and data-driven solutions.
 [View My Blog](blog.qmd){.btn-cta}
 :::
 
-## Featured Story
+## Featured Story {.column-page}
 
 ::: {.work-samples}
 
