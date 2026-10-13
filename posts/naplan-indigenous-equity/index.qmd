@@ -1,5 +1,5 @@
 ---
-title: "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance"
+title: "Unmasking the Inequity: Exploring Indigenous Australian Academic Access and Performance"
 subtitle: "Who are we leaving behind?"
 author: "Daniel Loza"
 date: "2026-08-24"
