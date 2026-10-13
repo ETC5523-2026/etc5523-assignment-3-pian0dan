@@ -3,7 +3,7 @@ title: "Resume"
 title-block-banner: true
 ---
 
-[Here's a snapshot of my professional journey. You can also [download my full resume as a PDF](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing).]{.resume-lede}
+[Here's a snapshot of my professional journey. You can also [download my full resume as a PDF](https://drive.google.com/file/d/1PlyyBu2Iq62BJXXx799uLbqZHAOk9YCE/view?usp=sharing).]{.resume-lede}
 
 ## Experience
 
@@ -251,6 +251,7 @@ Issued Nov 2022
 :::
 
 ::: {.contact-section}
-[Download Resume](https://drive.google.com/file/d/1_-73ikxoXP6vM_B0c7pI-kj8RnUshPsW/view?usp=sharing){.btn-cta-outline}
+[Download Resume](https://drive.google.com/file/d/1PlyyBu2Iq62BJXXx799uLbqZHAOk9YCE/view?usp=sharing){.btn-cta-outline}
 [Get in touch](contact.qmd){.btn-cta-outline}
 :::
+
