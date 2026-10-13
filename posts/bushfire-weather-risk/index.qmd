@@ -1,5 +1,6 @@
 ---
 title: "Bushfire Weather Is Changing: What Local Planners Need to Know"
+subtitle: "Fire risk keeps shifting. Is your planning keeping up?"
 author: "Daniel Loza"
 date: "2026-10-10"
 categories: [environment, policy]
@@ -21,7 +22,7 @@ That question matters for planning decisions that are made years in advance — 
 
 ### The headline finding
 
-Climate change did not make every ingredient of Black Summer more likely — the evidence shows a mixed picture, summarised in @fig-likelihood. Extreme heat comparable to that experienced during Black Summer is now **at least twice as likely** because of long-term warming. Fire weather overall — a combined measure of temperature, rainfall, humidity and wind — is **at least 30% more likely** than it was in 1900, and this is a conservative, lower-bound estimate. If warming reaches 2°C above 1900 levels, fire weather this severe is projected to become **at least four times as likely**.
+@fig-likelihood summarises how much more likely two of the key ingredients behind Black Summer have become. Extreme heat comparable to that experienced during Black Summer is now **at least twice as likely** because of long-term warming. Fire weather overall — a combined measure of temperature, rainfall, humidity and wind — is **at least 30% more likely** than it was in 1900, and this is a conservative, lower-bound estimate. If warming reaches 2°C above 1900 levels, fire weather this severe is projected to become **at least four times as likely**.
 
 ```{r}
 #| label: fig-likelihood
@@ -65,9 +66,9 @@ ggplot(attribution_results, aes(x = result, y = probability)) +
   )
 ```
 
-**Not every driver moved in the same direction.** Drought is the exception. The study found **no detectable climate-change signal** in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, two separate natural ocean and atmospheric cycles — unrelated to long-term warming — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell.
+**Not every driver moved in the same direction, though — the overall picture is mixed.** Drought is the exception. The study found **no detectable climate-change signal** in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, two separate natural ocean and atmospheric cycles — unrelated to long-term warming — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell.
 
-@fig-likelihood shows how much the odds have shifted for heat and fire weather; @tbl-findings brings all three findings together and translates each into what it means for planning.
+@fig-likelihood shows how much the odds have shifted for heat and fire weather; @tbl-findings brings all three findings together, including drought, and translates each into what it means for planning.
 
 ```{r}
 #| label: tbl-findings
