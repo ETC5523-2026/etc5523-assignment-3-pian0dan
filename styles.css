@@ -1,12 +1,13 @@
 /* css styles */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Bitter:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
 
 :root {
   --accent: #dc5e21;
   --accent-dark: #ac491a;
   --accent-tint: #fae7de;
   --text: #212121;
+  --bg: #fdfaf5;
 }
 
 /* Quarto forces the content container to be at least viewport-height,
@@ -17,14 +18,20 @@
   min-height: auto !important;
 }
 
+/* Quarto also reserves a minimum 60px row between the end of the content
+   and the footer; shrink that reserved gap. */
+.page-rows-contents {
+  grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] minmax(16px, max-content) [page-bottom];
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--bg);
   color: var(--text);
-  font-family: "Bitter", serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: 700;
   color: var(--accent);
 }
@@ -80,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-section .tagline {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
@@ -89,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   background-color: #ffffff;
   color: var(--accent) !important;
-  font-family: "Bitter", serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   padding: 0.65rem 1.9rem;
   border-radius: 4px;
@@ -157,14 +164,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-card strong {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   color: var(--accent);
   font-size: 1.1rem;
   margin: 0.75rem 0 0.5rem;
 }
 
 .contact-card a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: 700;
   text-decoration: none;
 }
@@ -183,8 +190,8 @@ h1, h2, h3, h4, h5, h6 {
 .contact-section {
   text-align: center;
   padding: 3rem 2rem;
-  background-color: #f7f7f5;
-  box-shadow: 0 0 0 100vmax #f7f7f5;
+  background-color: #f3ebe4;
+  box-shadow: 0 0 0 100vmax #f3ebe4;
   clip-path: inset(0 -100vmax);
 }
 
@@ -225,7 +232,7 @@ div.callout-tip .callout-icon::before {
 }
 
 .navbar-dark .navbar-brand, .navbar-dark .nav-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
 }
 
 /* Links */
@@ -290,7 +297,7 @@ a:hover {
 
 .photo-callout-text {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--accent-dark);
@@ -394,7 +401,7 @@ a:hover {
   text-align: center;
   background-color: var(--accent-tint);
   color: var(--accent-dark);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.45rem 1.1rem;
@@ -452,7 +459,7 @@ a:hover {
   flex: 0 0 auto;
   white-space: nowrap;
   min-width: 140px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--text);
@@ -482,6 +489,11 @@ a:hover {
 .timeline-content p:last-child,
 .timeline-content ul:last-child {
   margin-bottom: 0;
+}
+
+/* Match the footer to the page background instead of Cosmo's default grey */
+.nav-footer {
+  background-color: var(--bg);
 }
 
 /* Site-wide footer links, styled to match .btn-cta-outline */
