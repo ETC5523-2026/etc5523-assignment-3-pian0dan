@@ -1,13 +1,104 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About Daniel"
+pagetitle: "About"
+title-block-banner: true
+image: images/profile.jpeg
 about:
   template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+```{=html}
+<div class="photo-callout">
+  <span class="photo-callout-text">That's me!</span>
+  <svg class="photo-callout-arrow" width="300" height="120" viewBox="0 -20 300 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="calloutArrowhead" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+        <path d="M0,0 L12,6 L0,12 Z" style="fill: var(--accent-dark);" />
+      </marker>
+    </defs>
+    <path d="M150,0
+             C148,30 110,35 90,45
+             C65,57 60,60 50,63
+             C30,70 15,73 3,75"
+          style="stroke: var(--accent-dark); fill: none;"
+          stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 6"
+          marker-end="url(#calloutArrowhead)" />
+    <path d="M120,33
+             C119,22 90,15 120,0
+             C150,15 121,22 120,33
+             Z"
+          style="stroke: var(--accent-dark); fill: none;"
+          stroke-width="2.5" stroke-dasharray="7 6" />
+    <path d="M58,60
+             C57,51 34,45 58,32
+             C82,45 59,51 58,60
+             Z"
+          style="stroke: var(--accent-dark); fill: none;"
+          stroke-width="2.5" stroke-dasharray="7 6" />
+  </svg>
+</div>
+```
+
+## Bio
+
+Hi, I'm Daniel — an engagement specialist, analyst, community advocate and musician who believes that all problems are best solved together. I'm heavily involved in my local community and love learning and collaborating with others to achieve the best outcomes in any environment. Outside of work, I'm passionate about music, film, interactive media and urban development.
+
+Through experience consulting with not-for-profits and working with small businesses, I've built strong technical and communication skills, making me a keen problem-solver, a supportive leader and an eager team player. I'm looking to apply my analytical skills where they count, and make a difference in social welfare, equity and inclusion.
+
+## Skills
+
+::: {.skills-grid}
+
+::: {.skill-card}
+<i class="bi bi-cpu-fill skill-icon"></i>
+
+### Technical
+
+Proficient in R and Python.
+:::
+
+::: {.skill-card}
+<i class="bi bi-bar-chart-line-fill skill-icon"></i>
+
+### Data & Analytics
+
+Skilled with ggplot, Pandas and Excel.
+:::
+
+::: {.skill-card}
+<i class="bi bi-graph-up-arrow skill-icon"></i>
+
+### Economics
+
+Strong grasp of economic concepts and trends.
+:::
+
+::: {.skill-card}
+<i class="bi bi-briefcase-fill skill-icon"></i>
+
+### Professional
+
+Detail-oriented and thorough in every project.
+:::
+
+::: {.skill-card}
+<i class="bi bi-chat-dots-fill skill-icon"></i>
+
+### Communication
+
+Clear, confident communication with clients and executives alike.
+:::
+
+::: {.skill-card}
+<i class="bi bi-people-fill skill-icon"></i>
+
+### Leadership
+
+Driven to lead teams toward shared goals.
+:::
+
+:::
+
+::: {.contact-section}
+[Learn more](contact.qmd){.btn-cta-outline}
+:::

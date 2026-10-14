@@ -1,0 +1,117 @@
+---
+title: "Bushfire Weather Is Changing: What Local Planners Need to Know"
+subtitle: "Fire risk keeps shifting. Is your planning keeping up?"
+author: "Daniel Loza"
+date: "2026-10-10"
+categories: [environment, policy]
+bibliography: references.bib
+css: bushfire.css
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Why "once-in-a-generation" fire seasons are becoming a planning problem
+
+The 2019–20 "Black Summer" fires burned tens of millions of hectares across New South Wales, Victoria and surrounding regions, destroyed thousands of homes, and placed enormous strain on emergency services and local budgets. For anyone responsible for bushfire and emergency-management planning, the natural next question is: **was this a freak event, or is this closer to what fire seasons will increasingly look like?**
+
+That question matters for planning decisions that are made years in advance — how much is budgeted for emergency services, where new development is approved, how infrastructure is hardened, and how often fire-danger plans are revisited. If the weather conditions that drove Black Summer are becoming more common, then historical bushfire records are a less reliable guide to future risk, and plans built on those records may already be out of date.
+
+## What the evidence shows
+
+### The headline finding
+
+@fig-likelihood summarises how much more likely two of the key ingredients behind Black Summer have become. Extreme heat comparable to that experienced during Black Summer is now **at least twice as likely** because of long-term warming. Fire weather overall — a combined measure of temperature, rainfall, humidity and wind — is **at least 30% more likely** than it was in 1900, and this is a conservative, lower-bound estimate. If warming reaches 2°C above 1900 levels, fire weather this severe is projected to become **at least four times as likely**.
+
+```{r}
+#| label: fig-likelihood
+#| fig-cap: "How much more likely Black Summer-level conditions are today, and under further warming, compared with 1900."
+
+library(ggplot2)
+
+attribution_results <- data.frame(
+  result = factor(
+    c(
+      "Fire weather,\ntoday",
+      "Extreme heat,\ntoday",
+      "Fire weather,\nat +2\u00b0C warming"
+    ),
+    levels = c(
+      "Fire weather,\ntoday",
+      "Extreme heat,\ntoday",
+      "Fire weather,\nat +2\u00b0C warming"
+    )
+  ),
+  probability = c(1.30, 2.00, 4.00),
+  label = c("at least 30% more likely", "at least 2x as likely", "at least 4x as likely")
+)
+
+ggplot(attribution_results, aes(x = result, y = probability)) +
+  geom_col(width = 0.58, fill = "#e8923f") +
+  geom_hline(yintercept = 1, linetype = "dashed", linewidth = 0.5) +
+  geom_text(aes(label = label), vjust = -0.5, size = 3.8, fontface = "bold") +
+  annotate("text", x = 3.4, y = 1, label = "1900 baseline", hjust = 1, vjust = -0.6, size = 3) +
+  scale_y_continuous(limits = c(0, 4.7), breaks = 0:4, expand = expansion(mult = c(0, 0))) +
+  labs(
+    x = NULL,
+    y = "How many times more likely",
+    caption = "Source: van Oldenborgh et al. (2021). Values are reported lower-bound estimates."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.caption = element_text(hjust = 0, size = 9)
+  )
+```
+
+**Not every driver moved in the same direction, though — the overall picture is mixed.** Drought is the exception. The study found **no detectable climate-change signal** in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, two separate natural ocean and atmospheric cycles — unrelated to long-term warming — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell.
+
+@fig-likelihood shows how much the odds have shifted for heat and fire weather; @tbl-findings brings all three findings together, including drought, and translates each into what it means for planning.
+
+```{r}
+#| label: tbl-findings
+#| tbl-cap: "Attribution findings for the weather conditions behind Black Summer, and their planning implications."
+
+library(knitr)
+
+findings <- data.frame(
+  `Weather driver` = c(
+    "Extreme heat",
+    "Severe fire weather",
+    "Meteorological drought"
+  ),
+  `Change since 1900` = c(
+    "At least 2x as likely",
+    "At least 30% more likely (likely an underestimate)",
+    "No climate-change signal detected"
+  ),
+  `What this means for planning` = c(
+    "Treat extreme-heat days as a recurring risk, not a rare exception.",
+    "Historical counts of severe fire-danger days probably understate future risk.",
+    "Year-to-year rainfall swings from natural cycles remain a major, less predictable wildcard."
+  ),
+  check.names = FALSE
+)
+
+kable(findings, align = c("l", "l", "l"))
+```
+
+### Where this finding comes from
+
+This comes from an international climate attribution study published in the peer-reviewed journal *Natural Hazards and Earth System Sciences* [@vanoldenborgh2021]. The study combined decades of weather observations with simulations from 11 global climate models to compare the chances of Black Summer-level conditions occurring in today's climate versus the climate of 1900, before most human-caused warming had occurred. It focused on the September–February fire season in the part of southeastern Australia most affected in 2019–20. The "conservative, lower-bound" caveat on the 30% figure reflects a known limitation: the climate models used still understate the warming trend actually observed, so the true increase in fire-weather risk may be larger.
+
+## What this means for your planning decisions
+
+These findings speak directly to the question this post opened with. Black Summer-level fire weather is not a one-off: the conditions that produced it are measurably more likely today than a century ago. The 30% figure in @tbl-findings is a floor, not a ceiling, so historical frequency estimates for fire-danger days likely understate the risk ahead. Resourcing, zoning and infrastructure-hardening decisions built on those older estimates may need revisiting sooner than in the past.
+
+The picture isn't uniform, though. Drought showed no attributable warming trend — it's driven by natural climate variability instead. That year-to-year unpredictability isn't going away, and plans need to accommodate it rather than reading every bad fire season as proof of an accelerating trend.
+
+One limit is worth flagging: this study covers the weather conditions that support severe fires, not what causes any individual fire. Ignition, fuel loads, land management and community exposure all remain within local and state control. Weather sets the stage; planning choices on the ground still shape much of the outcome.
+
+::: {.callout-tip appearance="simple" icon="false"}
+## TL;DR
+
+The best available attribution science [@vanoldenborgh2021] finds that Black Summer-level extreme heat is now **at least twice as likely** as in 1900, and severe fire weather overall is **at least 30% more likely** — a figure that could rise to **at least four times as likely** if warming reaches 2°C. Drought is the exception: the study found **no evidence that climate change played a role**, pointing instead to natural ocean and atmospheric cycles. For planners, the practical implication is to treat past fire-season statistics as a conservative starting point rather than a reliable ceiling, while keeping fuel, land-use and exposure management as the levers most directly under local control.
+:::

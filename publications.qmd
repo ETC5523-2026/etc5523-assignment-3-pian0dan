@@ -1,0 +1,10 @@
+---
+title: "Publications"
+title-block-banner: true
+---
+
+I am currently polishing my thesis on sortition frameworks. Check back for this later!
+
+::: {.contact-section}
+[Ask me about my work](contact.qmd){.btn-cta-outline}
+:::

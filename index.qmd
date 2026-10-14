@@ -1,14 +1,32 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+pagetitle: "Daniel Loza"
 page-layout: full
-title-block-banner: true
 ---
 
+::: {.hero-section .column-screen}
+# Hi, I'm Daniel!
 
+::: {.tagline}
+I create connections and data-driven solutions.
+:::
+
+[View My Blog](blog.qmd){.btn-cta}
+:::
+
+## Featured Story {.column-page}
+
+::: {.work-samples}
+
+::: {.work-card}
+### Bushfire Weather Is Changing: What Local Planners Need to Know
+
+A look at what the best available climate-attribution science says about Black Summer-level fire weather — written for local and state policymakers.
+
+[Read the post &rarr;](posts/bushfire-weather-risk/index.qmd)
+:::
+
+:::
+
+::: {.contact-section .column-page}
+## [Contact me](contact.qmd){.contact-link} to find out more!
+:::

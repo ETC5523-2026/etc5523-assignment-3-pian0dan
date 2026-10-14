@@ -1,0 +1,21 @@
+---
+title: "Contact"
+title-block-banner: true
+page-layout: full
+---
+
+::: {.contact-intro}
+I'm always happy to chat about data, community projects, or new opportunities — feel free to reach out using any of the details below!
+:::
+
+::: {.contact-info-grid}
+
+::: {.contact-card}
+<i class="bi bi-envelope-fill"></i>
+
+**Email**
+
+[daniel376707@gmail.com](mailto:daniel376707@gmail.com)
+:::
+
+:::
